@@ -1,18 +1,5 @@
 # C++
 
-## Úteis
-
-### Instalacoes 
-
-- Instalar o compilador gcc pelo MinGW.
-- 
-
-## Compiling 
-
-~~~cpp
-g++ main.cpp -o main // compile
-./main               // run
-~~~
 
 ## Syntax
 
@@ -65,6 +52,15 @@ int main() {
 - bool - 1 byte - Stores true (1) or false (0) values.
 - string - stores text, such as "Hello World". String values are surrounded by double quotes
 - ...
+
+## Booleans
+
+~~~cpp
+  bool isCodingFun = true;
+  bool itsRaining = false;
+  cout << isCodingFun << endl; 
+  cout << itsRaining << endl;  
+~~~
 
 ### Derived Data Types
 
@@ -123,6 +119,12 @@ myNum = 10;           // error: assignment of read-only variable 'myNum'
 - \>\> extraction operator
 - :: scope resolution operator
 
+## Conditional Operator 
+
+~~~cpp
+string result = (time < 18) ? "Good day." : "Good evening.";
+~~~
+
 ## Strings
 
 - To use strings, you must include an additional header file in the source code, the <string> library.
@@ -180,15 +182,6 @@ var = tanh(x)         // Returns the hyperbolic tangent of a double value
 
 ~~~
 
-## Booleans
-
-~~~cpp
-  bool isCodingFun = true;
-  bool itsRaining = false;
-  cout << isCodingFun << endl; 
-  cout << itsRaining << endl;  
-~~~
-
 ## If...Else
 
 ~~~cpp
@@ -198,12 +191,6 @@ if (time < 18) {
 } else {
   cout << "Good evening.";
 }
-~~~
-
-## Conditional Operator 
-
-~~~cpp
-string result = (time < 18) ? "Good day." : "Good evening.";
 ~~~
 
 ## Switch
@@ -482,62 +469,6 @@ int main() {
   
   return 0;
 }
-~~~
-
-## Scope
-
-## Recursion
-
-~~~cpp
-
-~~~
-
-## Structures 
-
-~~~cpp
-
-~~~
-
-## Lists
-
-~~~cpp
-
-~~~
-
-## Tuples
-
-~~~cpp
-
-~~~
-
-## Sets
-
-~~~cpp
-
-~~~
-
-## Dictionaries
-
-~~~cpp
-
-~~~
-
-## Trees
-
-~~~cpp
-
-~~~
-
-## Hash Tables
-
-~~~cpp
-
-~~~
-
-## Graphs
-
-~~~cpp
-
 ~~~
 
 ## OOP - Object-Oriented Programming
@@ -975,107 +906,7 @@ int main() {
 }
 ~~~
 
-### Class Method Overloading
 
-~~~cpp
-
-~~~
-
-### Class Method final
-
-~~~cpp
-
-~~~
-
-### Static Methods
-
-~~~cpp
-
-~~~
-
-### Static Variables
-
-~~~cpp
-
-~~~
-
-### Association
-
-~~~cpp
-
-~~~
-
-### Composition
-
-~~~cpp
-
-~~~
-
-### Aggregation
-
-~~~cpp
-
-~~~
-
-### Abstract Classes
-
-~~~cpp
-
-~~~
-
-### Abstract Methods
-
-~~~cpp
-
-~~~
-
-### Interfaces
-
-~~~cpp
-
-~~~
-
-### Collections 
-
-~~~cpp
-
-~~~
-
-### Enums
-
-~~~cpp
-
-~~~
-
-### ArrayLists
-
-~~~cpp
-
-~~~
-
-### LinkedList
-
-~~~cpp
-
-~~~
-
-### Iterator
-
-~~~cpp
-
-~~~
-
-### Generic Classes 
-
-~~~cpp
-
-~~~
-
-### Generic Methods 
-
-~~~cpp
-
-~~~
 
 ## Exceptions
 
@@ -1151,11 +982,6 @@ int main () {
 
 ~~~
 
-## Objects Serialization 
-
-~~~cpp
-
-~~~
 
 ## Output
 
@@ -1188,53 +1014,8 @@ int main() {
 }
 ~~~
 
-### Special Characters
-
-~~~cpp
-
-~~~
-
 ## Input
 
 ~~~cpp
 cin >> myName;   // Get user input from the keyboard - only 1 word
 ~~~
-
-## How To
-
-### How To: Random numbers
-
-~~~cpp
-
-~~~
-
-### How To: ...
-
-~~~cpp
-
-~~~
-
-## GUI
-
-- [Examples](#)
-
-## Links
-
-- [W3schools](https://www.w3schools.com/cpp/default.asp)
-- [Tutorialspoint - OOP](https://www.tutorialspoint.com/cplusplus/cpp_object_oriented.htm)
-- [Ntu - OOP](https://www3.ntu.edu.sg/home/ehchua/programming/cpp/cp3_OOP.html)
-- [Cplusplus](http://www.cplusplus.com/doc/tutorial/)
-- [Tutorial STL - 1bit](http://www.1bit.com.br/content.1bit/weblog/stl_tutorial_0)
-- [Geeksforgeeks - OOP](https://www.geeksforgeeks.org/object-oriented-programming-in-cpp/)
-
-## To be continued
-
-- OOP
-- Data structs - create dir in git
-- OpenGl UFRGS
-- CPP and DBs
-- framework Qt Creator
-
-https://www.youtube.com/watch?v=iVLQeWbgbXs&list=PL43pGnjiVwgTJg7uz8KUGdXRdGKE0W_jN
-https://youtu.be/wN0x9eZLix4?t=11m
-https://www.w3schools.com/cpp/cpp_files.asp
