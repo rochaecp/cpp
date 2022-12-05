@@ -1,5 +1,12 @@
 # C++
 
+## Úteis
+
+### Instalacoes 
+
+- Instalar o compilador gcc pelo MinGW.
+- 
+
 ## Compiling 
 
 ~~~cpp
