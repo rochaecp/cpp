@@ -7,8 +7,7 @@
 
 ## Introdução
 
-1. [Ola mundo](estudos/ola-mundo.md)
-1. [Sintaxe básica e comentários](estudos/sintaxe-basica.md)
+1. [Ola mundo e comentários](estudos/ola-mundo.md)
 1. [Tipos de Dados](estudos/tipos.md)
 1. [Variáveis e Constantes](estudos/variaveis.md)
 1. [Operadores](estudos/operadores.md)
